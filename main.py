@@ -2,7 +2,6 @@ import streamlit as st
 from openai import OpenAI
 import requests
 
-
 def make_prompt(story):
   design_response = client.chat.completions.create(
       model='gpt-3.5-turbo',
